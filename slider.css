@@ -1,0 +1,122 @@
+.slider {
+    display: block;
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.button-wrapper {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+    z-index: 1;
+}
+.button-group {
+    margin: 480px auto 0;
+}
+.button-group a {
+    display: inline-block;
+    font-size: 24px;
+    height: 50px;
+    margin-right: 2px;
+    text-align: center;
+    width: 139px;
+}
+.button-group a:focus {
+    outline: 0
+}
+.button-group .btn-eliangreen_1 {
+    color: #FFFFFF;
+    width: 190px;
+    height: 65px;
+    border: #00ab1b 2px solid;
+    font-size: 20px;
+    font-family: Î¢ÈíÑÅºÚ;
+    line-height: 65px;
+}
+.button-group .btn-eliangreen_2 {
+    color: #FFFFFF;
+    width: 190px;
+    height: 65px;
+    border: #00ab1b 2px solid;
+    font-size: 20px;
+    font-family: Î¢ÈíÑÅºÚ;
+    line-height: 65px;
+}
+.button-group .btn-eliangreen_1:hover {
+    background-color: #009416;
+    border: #009416 2px solid;
+}
+.button-group .btn-eliangreen_2:hover {
+    background-color: #00C71E;
+    border: #00C71E 2px solid;
+}
+.button-group .btn-elianblue_1 {
+    color: #FFFFFF;
+    width: 190px;
+    height: 65px;
+    border: #65b2fb 2px solid;
+    font-size: 20px;
+    font-family: Î¢ÈíÑÅºÚ;
+    line-height: 65px;
+}
+.button-group .btn-elianblue_2 {
+    color: #FFFFFF;
+    width: 190px;
+    height: 65px;
+    border: #65b2fb 2px solid;
+    font-size: 20px;
+    font-family: Î¢ÈíÑÅºÚ;
+    line-height: 65px;
+}
+.button-group .btn-elianblue_1:hover {
+    background-color: #4CA6FA;
+    border: #4CA6FA 2px solid;
+}
+.button-group .btn-elianblue_2:hover {
+    background-color: #1A8DF9;
+    border: #1A8DF9 2px solid;
+}
+.button-group .btn-elianwhite_1{
+    color: #FFFFFF;
+    width: 190px;
+    height: 65px;
+    border: #72787E 2px solid;
+    font-size: 20px;
+    font-family: Î¢ÈíÑÅºÚ;
+    line-height: 65px;
+}
+.button-group .btn-elianwhite_2{
+    color: #FFFFFF;
+    width: 190px;
+    height: 65px;
+    border: #72787E 2px solid;
+    background: none;
+    font-size: 20px;
+    font-family: Î¢ÈíÑÅºÚ;
+    line-height: 65px;
+}
+a.btn-elianwhite_1:hover {
+    background-color: #323236;
+    border: #323236 2px solid;
+}
+a.btn-elianwhite_2:hover {
+    background-color: #323236;
+    border: #323236 2px solid;
+}
+
+/*°×±³¾°É«°´Å¥*/
+.button-group .btn-mzwhite {
+    background-color: #FFF;
+    color: #00a7eb;
+    border: #FFF 2px solid;
+    width: 155px;
+    padding: 12px 0px;
+}
+.button-group a:focus {
+    outline: 0;
+}
+
+
