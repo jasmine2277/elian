@@ -23,7 +23,7 @@ function AddFavorite(sURL, sTitle) {
             window.sidebar.addPanel(sTitle, sURL, "");
         }
         catch (e) {
-            alert("加入收藏失败，请使用Ctrl+D进行添加");
+            alert("鍔犲叆鏀惰棌澶瑰け璐ワ紝璇蜂娇鐢–trl+D杩涜娣诲姞");
         }
     }
 }
