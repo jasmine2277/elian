@@ -30,8 +30,8 @@
 
 		//获取这是第几幅图的大图
 		var url = window.location.href;
-		var loc = url.indexOf(".");
-		var numindex = url.substr(loc-2,1);
+		var loc = url.indexOf("_");
+		var numindex = url.substr(loc+1,1);
 
 
 		//只有点击的大图才会显示
