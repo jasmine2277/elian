@@ -39,28 +39,11 @@
 				if (imgurl.includes(i)){
 					var exp = storage.getItem('cvs'+i);
 					console.log(exp);
-					$("#img"+i).attr("src",exp).css({"width":"700px","height":"500px"});
+					$("#img"+i).attr("src",exp);
+					$("#img"+i).css({"width":"700px","height":"500px"});
 				}
 			}
-
-
-
-	/*		var storage = window.sessionStorage;
-		var cvs4 = storage.getItem('cvs4');
-			alert(cvs4);
-			var cvs3 = storage.getItem('cvs3');
-			alert(cvs3);
-		var url = window.location.href;
-			var loc = url.indexOf("?");
-			var imgurl = url.substring(loc+1);
-			$("#img4").attr("src",imgurl);*/
 		})
-
-
-
-
-
-
 
 		var CanvasDemo = function() {
 			var YD = YAHOO.util.Dom;
