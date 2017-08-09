@@ -40,8 +40,8 @@
 					var exp = storage.getItem('cvs'+i);
 					console.log(exp);
 					$("#img"+i).attr("src",exp);
+					$("#img"+i).css({"width":"null","height":null});
 					$("#img"+i).css({"width":"700px","height":"500px"});
-					$("#img"+i).removeClass("canvas-img");
 				}
 			}
 		})
