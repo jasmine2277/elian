@@ -39,7 +39,7 @@
 				if (imgurl.includes(i)){
 					var exp = storage.getItem('cvs'+i);
 					console.log(exp);
-					$("#img"+i).attr("src",exp);
+					$("#img"+i).attr("src",exp).css({"width":"700px","height":"500px"});
 				}
 			}
 
