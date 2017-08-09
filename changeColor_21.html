@@ -35,12 +35,11 @@
 		var url = window.location.href;
 		var loc = url.indexOf("_");
 		var numindex = url.substr(loc+1,1);
-                console.log(numindex);
 		//只有点击的大图才会显示
 		for(var i=1;i<7;i++){
-			document.getElementById('container'+i).style.display='block';
+			document.getElementById('container'+i).style.display='none';
 		}
-		document.getElementById('container'+numindex).style.display='none';
+		document.getElementById('container'+numindex).style.display='block';
 		
 	});
 
